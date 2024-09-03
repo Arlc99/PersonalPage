@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
     <title>Document</title>
 </head>
+
 <body>
+    <header class="inicio">
+        <div class="nav">
+            <h1>HOJA DE VIDA</h1>
+            <nav>
+                <ul>
+                    <li><a>contacto</a></li>
+                    <li><a>cursos</a></li>
+                    <li><a>idiomas</a></li>
+                    <li><a>habilidades</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="yo">
+            <div class="img">
+                <img src="img/yo.jpg" alt="foto del aspirante" />
+            </div>
+            <div class="tx">
+                <h2>Camilo <span class="r">R</span>odriguez </h2>
+                <h3>Ingeniero de sistemas</h3>
+                <h5>sobre mi</h5>
+                <p>Estudiantes de la universidad de la Amazonia , nací en FLorencia Caquetá, apasionado por la
+                    programacion y desarrollo de las nuevas tecnologia emergentes, trabajador , honesto, con muchas
+                    ganas de salir adelante y aportar mis conocimientos para el bien </p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="section">
+        <div class="cabeza">
+            <p>conocimientos</p>
+            <h2>Habilidades</h2>
+            <div class="caja">
+                <p>capacidades</p>
+            </div>
+        </div>
+        <div class="cuerpo">
+            <h3>lenguajes</h3>
+            <div class="lenguajes">
+                <img  class="imge"  src="img/java.png" alt="logo de java" />
+                <img class="imge" src="img/python.png" alt="logo de python" />
+                <img  class="imge" src="img/js.png" alt="logo de js" />
+                <img  class="imge" src="img/html.png" alt="logo de html" />
+                <img  class="imge" src="img/css.png" alt="logo de css" />
+            </div>
+            <h3>FRAMEWORK</h3>
+            <div class="bib">
+                <img class="imge" src="img/netbeans.png"/> 
+                <img class="imge" src="img/visual.png"/>
+            </div>
+            <h3>librerias</h3>
+            <div class="bib">
+                <img class="imge" src="img/react.png"/>
+                <img class="imge" src="img/javaSwing.png"/>
+                <img class="imge" src="img/bootstrap.png"/>
+            </div>
+        </div>
+    </section>
+    <section class="idioma">
+        <div class="cabeza">
+            <p>nativo</p>
+            <h2>IDIOMAS</h2>
+            <div class="caja">
+                <p>extranjeros</p>
+            </div>
+        </div>
+        <div class="cuer">
+            <div class="txt">
+               
+                <h2>A2 BASICO</h2>
+                <p>Ingles</p>
+                <h2>ESPAÑOL</h2>
+                <p>LATINO</p>
+
+            </div>
+            <div class="im">
+                <img src="img/USA.png" width="300px" height="300px" class="fondo"/>
+                <img src="img/LIBERTAD.png" width="300px" height="300px" class="sobrepuesta"/>
+                <img src="img/LATINO.png" width="300px" height="300px" class="n"/>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="cabeza">
+            <p>cortos</p>
+            <h2>CURSOS</h2>
+            <div class="caja">
+                <p>ESPECIALIZADO</p>
+            </div>
+        </div>
+        <div class="curso">
+            <h2>curso intermedio de redes</h2>
+            <img src="img/CERTIFICADO.jpg" width="900px" height="900px"/>
+        </div>
+    </section>
+    <section>
+        <div class="cabeza">
+            <p>comunicacion</p>
+            <h2>CONTACTO</h2>
+            <div class="caja">
+                <p>DATOS</p>
+            </div>
+        </div>
+        <div class="for">
+            <form class="form-register" action="/procesar_formulario" method="post">
+            
+                <!-- Campo de Nombre -->
+                <label for="nombre"></label>
+                <input class="controls" type="text" id="nombre" name="nombre" required placeholder="Nombre">
+    
+                <br>
+                <!-- Campo de Nombre -->
+                <label for="nombre"></label>
+                <input class="controls" type="text" id="Apellidos" name="Apellidos" required placeholder="Apellido">
+    
+                <br>
+                <!-- Campo de Correo Electrónico -->
+                <label for="email"></label>
+                <input class="controls" type="email" id="email" name="email" required placeholder="Correo electronico">
+    
+                <br>
+                <!-- Campo de celular -->
+                <label for="celular"></label>
+                <input class="controls" type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required placeholder="(+57) 3134648474">
+    
+                <br>
+    
+    
+                 <div class="condiciones">
+                    <input type="checkbox" id="check"/>
+                <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+                 </div>
+                
+    
+                <!-- Botón de Enviar -->
+                <button class="botons" type="submit">Enviar</button>
+    
+            </form>
+        </div>
+    </section>
+    <footer  class="inicio">
+        <div class="1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <ul>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+            </ul>
+        </div>
+        <div class="2">
+            <h2>Lorem, ipsum dolor.</h2>
+            <ul>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+            </ul>
+        </div>
+        <div class="3">
+            <h2>Lorem, ipsum dolor.</h2>
+            <ul>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+                <li><a>lorem</a></li>
+            </ul>
+        </div>
+    </footer>
     
 </body>
+
 </html>

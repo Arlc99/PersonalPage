@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*  "Playfair Display"*/
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*"Familjen Grotesk"*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio {
+    background: linear-gradient(to bottom, #343434, #000000);
+    color: white;
+}
+.nav h1::first-letter{
+    font-size: 50px;
+    font-family: "Playfair Display", sans-serif;
+    color: rgb(17, 175, 17);
+}
+.nav {
+    font-family: "Familjen Grotesk", sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.nav nav {
+    margin-left: 15%;
+}
+
+.nav ul li {
+
+    float: right;
+    margin-left: 60px;
+    margin-top: 25px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+.nav ul li:hover {
+    font-size: 25px;
+    color: green;
+    text-shadow: 5px 5px 5px rgb(96, 96, 96);
+}
+.nav ul li:active {
+    color:white; 
+}
+
+.yo {
+    display: flex;
+    padding: 30px;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: uppercase;
+}
+
+.img img {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 5px;
+  
+}
+
+.tx {
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    width: 600px;
+    text-shadow: 4px 4px 15px rgb(180, 180, 180);
+}
+
+.tx h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+
+}
+.tx h2::first-letter {
+    font-size: 80px;
+}
+.r {
+    font-size: 80px;
+}
+
+.tx h3 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.tx h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.section {
+    background-color: rgb(231, 228, 228);
+}
+.cabeza {
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    text-transform: uppercase;
+ 
+}
+
+.cabeza h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.caja {
+
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.caja p {
+    padding: 10px;
+}
+
+.cuerpo {
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: uppercase;
+}
+.lenguajes{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  
+}
+ .imge {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+
+}
+.bib {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cuer {
+    padding: 20px;
+    text-transform: uppercase;
+ 
+    display: flex;
+}
+.cuer h2 {
+    margin-top: 50px;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px rgb(22, 22, 22);
+}
+.cuer p {
+    margin-left: 60%;
+    font-size: 25px;
+}
+.im{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    position: relative;
+    bottom: 40px;
+}
+.fondo {
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-15deg);
+}
+.sobrepuesta {
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    transform: rotate(20deg);
+}
+.n {
+    position: relative;
+   
+    transform: rotate(-20deg);
+}
+.im img {
+    filter: drop-shadow(10px 5px 5px rgb(53, 52, 52));
+}
+
+.curso {
+    padding: 20px;
+    font-family: "Playfair Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curso img {
+    margin: 20px;
+   
+}
+.for {
+    text-align: center;
+    padding: 30px;
+}
+.form-register {
+    width: 400px;
+    background: linear-gradient(to bottom, #a2a2a2, #6f7170);
+    padding: 30px;
+    margin: auto;
+    margin-top: -30px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-register h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls {
+    width: 100%;
+  background-color: white;
+    padding: 10px ;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white; 
+    font-size: 18px;
+    color:rgb(9, 9, 9); 
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height:40px ;
+}
+.form-register a {
+    color: white; 
+    text-decoration: none;
+}
+.form-register a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+.form-register .botons {
+    width: 100%;
+   background: #1a1a1b;
+   border:none; 
+   padding: 12px;
+   color:white; 
+   margin: 16px 0;
+   font-size: 16px;
+}  
+.condiciones {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+}
