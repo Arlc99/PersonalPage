@@ -10,16 +10,24 @@
 
 <body>
     <header class="inicio">
+        <input type="checkbox" id = "menu"/>
         <div class="nav">
+            
             <h1>HOJA DE VIDA</h1>
             <nav>
                 <ul>
-                    <li><a href="#contacto">contacto</a></li>
-                    <li><a href="#cursos">cursos</a></li>
-                    <li><a href="#idiomas">idiomas</a></li>
                     <li><a href="#habilidades">habilidades</a></li>
+                    <li><a href="#idiomas">idiomas</a></li>
+                    <li><a href="#cursos">cursos</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                   
+                    
                 </ul>
             </nav>
+            
+            <label for = "menu">
+               <img src="img/menu.png" alt="barra de menu"/> 
+            </label>
         </div>
 
         <div class="yo">
@@ -50,22 +58,22 @@
         <div class="cuerpo">
             <h3>lenguajes</h3>
             <div class="lenguajes">
-                <img  class="imge"  src="img/java.png" alt="logo de java" />
+                <img class="imge" src="img/java.png" alt="logo de java" />
                 <img class="imge" src="img/python.png" alt="logo de python" />
-                <img  class="imge" src="img/js.png" alt="logo de js" />
-                <img  class="imge" src="img/html.png" alt="logo de html" />
-                <img  class="imge" src="img/css.png" alt="logo de css" />
+                <img class="imge" src="img/js.png" alt="logo de js" />
+                <img class="imge" src="img/html.png" alt="logo de html" />
+                <img class="imge" src="img/css.png" alt="logo de css" />
             </div>
             <h3>FRAMEWORK</h3>
             <div class="bib">
-                <img class="imge" src="img/netbeans.png"/> 
-                <img class="imge" src="img/visual.png"/>
+                <img class="imge" src="img/netbeans.png" />
+                <img class="imge" src="img/visual.png" />
             </div>
             <h3>librerias</h3>
             <div class="bib">
-                <img class="imge" src="img/react.png"/>
-                <img class="imge" src="img/javaSwing.png"/>
-                <img class="imge" src="img/bootstrap.png"/>
+                <img class="imge" src="img/react.png" />
+                <img class="imge" src="img/javaSwing.png" />
+                <img class="imge" src="img/bootstrap.png" />
             </div>
         </div>
     </section>
@@ -79,7 +87,7 @@
         </div>
         <div class="cuer">
             <div class="txt">
-               
+
                 <h2>A2 BASICO</h2>
                 <p>Ingles</p>
                 <h2>ESPAÑOL</h2>
@@ -87,9 +95,9 @@
 
             </div>
             <div class="im">
-                <img src="img/USA.png" width="300px" height="300px" class="fondo"/>
-                <img src="img/LIBERTAD.png" width="300px" height="300px" class="sobrepuesta"/>
-                <img src="img/LATINO.png" width="300px" height="300px" class="n"/>
+                <img src="img/USA.png" width="300px" height="300px" class="fondo" />
+                <img src="img/LIBERTAD.png" width="300px" height="300px" class="sobrepuesta" />
+                <img src="img/LATINO.png" width="300px" height="300px" class="n" />
             </div>
         </div>
     </section>
@@ -103,7 +111,7 @@
         </div>
         <div class="curso">
             <h2>curso intermedio de redes</h2>
-            <img src="img/CERTIFICADO.jpg" width="900px" height="900px"/>
+            <img src="img/CERTIFICADO.jpg" width="900px" height="900px" />
         </div>
     </section>
     <section id="contacto">
@@ -116,53 +124,53 @@
         </div>
         <div class="for">
             <form class="form-register" action="/procesar_formulario" method="post">
-            
+
                 <!-- Campo de Nombre -->
                 <label for="nombre"></label>
                 <input class="controls" type="text" id="nombre" name="nombre" required placeholder="Nombre">
-    
+
                 <br>
                 <!-- Campo de Nombre -->
                 <label for="nombre"></label>
                 <input class="controls" type="text" id="Apellidos" name="Apellidos" required placeholder="Apellido">
-    
+
                 <br>
                 <!-- Campo de Correo Electrónico -->
                 <label for="email"></label>
                 <input class="controls" type="email" id="email" name="email" required placeholder="Correo electronico">
-    
+
                 <br>
                 <!-- Campo de celular -->
                 <label for="celular"></label>
                 <input class="controls" type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     required placeholder="(+57) 3134648474">
-    
+
                 <br>
-    
-    
-                 <div class="condiciones">
-                    <input type="checkbox" id="check"/>
-                <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
-                 </div>
-                
-    
+
+
+                <div class="condiciones">
+                    <input type="checkbox" id="check" />
+                    <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+                </div>
+
+
                 <!-- Botón de Enviar -->
                 <button class="botons" type="submit">Enviar</button>
-    
+
             </form>
         </div>
     </section>
-    <footer  class="inicio">
-        <div >
+    <footer class="inicio">
+        <div>
             <h2>contactos</h2>
             <ul>
                 <li><a>3168120218</a></li>
                 <li><a>3134648474</a></li>
                 <li><a>3138962125</a></li>
-                
+
             </ul>
         </div>
-        <div >
+        <div>
             <h2>correos</h2>
             <ul>
                 <li><a>camos@hmail.com</a></li>
@@ -171,7 +179,7 @@
                 <li><a>gerson@hotmail.com</a></li>
             </ul>
         </div>
-        <div >
+        <div>
             <h2>ayuda</h2>
             <ul>
                 <li><a>preguntas frecuentes</a></li>
@@ -181,7 +189,7 @@
             </ul>
         </div>
     </footer>
-    
+
 </body>
 
 </html>
