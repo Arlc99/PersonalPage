@@ -157,10 +157,11 @@
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
 }
+
 .cuerpo h3 {
     background: linear-gradient(to bottom, #a2a2a2, #6f7170);
     padding: 20px;
-   box-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px green;
     border-radius: 5px;
     margin: 50px;
     width: 300px;
@@ -250,10 +251,11 @@
     margin: 20px;
 
 }
+
 .curso h2 {
     background: linear-gradient(to bottom, #a2a2a2, #6f7170);
     padding: 20px;
-   box-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px green;
     border-radius: 5px;
     margin: 50px;
     width: 400px;
@@ -334,6 +336,7 @@
     font-family: "Playfair Display", sans-serif;
 
 }
+
 .footer div {
     margin-left: 100px;
 }
@@ -352,32 +355,39 @@
     font-size: 20px;
     color: green;
 }
+
 .pie {
-   display: flex;  
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .pie img {
     width: 70px;
     height: 70px;
 }
+
 .mensaje {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .ubicacion {
     display: flex;
     margin: 20px;
 }
+
 .ubicacion img {
     width: 40px;
     height: 40px;
 }
+
 .ubicacion p {
     padding: 10px;
     font-size: 10px;
 }
+
 .mensaje p {
     font-size: 10px;
     margin-bottom: 20px;
@@ -439,17 +449,24 @@
     .txt {
         width: 300px;
     }
+
+    .curso img {
+        width: 500px;
+        height: 500px;
+    }
 }
 
 @media (max-width: 780px) {
     .nav h1 {
         font-size: 20px;
     }
+
     .nav label {
         display: initial;
         margin-left: 50%;
-       
+
     }
+
     .nav label:active {
         box-shadow: 5px 5px 5px green;
     }
@@ -467,25 +484,26 @@
         justify-content: center;
         opacity: 0;
         padding-bottom: 20px;
-       
-       
-       
+
+
+
     }
 
     .nav ul li {
         clear: both;
         margin-top: 10px;
-      
+
     }
 
-    #menu:checked ~ .nav nav  {
-      opacity: 1;
+    #menu:checked~.nav nav {
+        opacity: 1;
     }
 
     .yo {
         flex-direction: column;
         align-items: center;
     }
+
     .tx {
         width: 200px;
     }
@@ -505,16 +523,20 @@
     .r {
         font-size: 40px;
     }
+
     .tx p {
         font-size: 10px;
     }
+
     .cabeza h2 {
         font-size: 40px;
         margin-bottom: 10px;
     }
+
     .bib {
         flex-direction: column;
     }
+
     .lenguajes {
         flex-direction: column;
     }
@@ -524,7 +546,7 @@
         height: 200px;
 
     }
- 
+
     .cuerpo {
         display: flex;
         align-items: center;
@@ -532,14 +554,14 @@
         text-align: center;
         justify-content: center;
     }
-     
+
     .cuerpo h3 {
         background: linear-gradient(to bottom, #a2a2a2, #6f7170);
         padding: 20px;
-       box-shadow: 5px 5px 5px green;
+        box-shadow: 5px 5px 5px green;
         border-radius: 5px;
         margin: 50px;
-    
+
     }
 
     .idioma {
@@ -547,31 +569,73 @@
         flex-direction: column;
         align-items: center;
     }
+
     .cuer {
         flex-direction: column-reverse;
-     
+
     }
+
     .im {
-       
+
         margin-left: 0%;
-       
+
     }
+
     .im img {
         width: 300px;
         height: 200px;
     }
+
     .cuer h2 {
         font-size: 40px;
     }
+
     .cuer p {
         font-size: 20px;
     }
-    .curso img{
-        width: 500px;
-        height: 500px;
+
+    .curso img {
+        width: 450px;
+        height: 450px;
     }
+
     .footer div {
         margin-left: 20px;
     }
 
+}
+
+@media(max-width: 500px) {
+    .curso img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .form-register {
+        width: 300px;
+        background: linear-gradient(to bottom, #a2a2a2, #6f7170);
+        padding: 30px;
+        margin: auto;
+        margin-top: -30px;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 7px 13px 37px green;
+
+    }
+
+    .form-register .botons {
+        width: 60px;
+
+        font-size: 15px;
+    }
+
+    .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .curso h2 {
+        width: 300px;
+    }
 }
